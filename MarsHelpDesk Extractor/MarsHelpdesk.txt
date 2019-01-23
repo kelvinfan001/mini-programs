@@ -1,0 +1,3401 @@
+{
+  "luis_schema_version": "3.0.0",
+  "versionId": "180516V1",
+  "name": "MarsHelpdesk",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "AddToGroup"
+    },
+    {
+      "name": "ApplyExEmailAccess"
+    },
+    {
+      "name": "ApplyHardware"
+    },
+    {
+      "name": "AskConfNumber"
+    },
+    {
+      "name": "AskMobileIssue"
+    },
+    {
+      "name": "AskMSDNumber"
+    },
+    {
+      "name": "AskSDriveIssue"
+    },
+    {
+      "name": "CheckTicketStatus"
+    },
+    {
+      "name": "InstallSoftware"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "RequestAccess"
+    },
+    {
+      "name": "RequestApplication"
+    },
+    {
+      "name": "ResetPassword"
+    },
+    {
+      "name": "UnlockAccount"
+    }
+  ],
+  "entities": [
+    {
+      "name": "AccessName",
+      "roles": []
+    },
+    {
+      "name": "ApplicationName",
+      "roles": []
+    },
+    {
+      "name": "DriveOption",
+      "roles": []
+    },
+    {
+      "name": "GroupType",
+      "roles": []
+    },
+    {
+      "name": "Hardware",
+      "roles": []
+    },
+    {
+      "name": "LockOutType",
+      "roles": []
+    },
+    {
+      "name": "PhoneOS",
+      "roles": []
+    },
+    {
+      "name": "PhoneType",
+      "roles": []
+    },
+    {
+      "name": "SoftwareName",
+      "roles": []
+    },
+    {
+      "name": "SystemType",
+      "roles": []
+    },
+    {
+      "name": "TicketNum",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [
+    {
+      "name": "AccessName",
+      "mode": true,
+      "words": "log application ticket,share idea,log a ticket,magic reporting,cip template report,create a new export set,create new export set,business partner account,turin associate account,contractor to associate,access to leo,leo access,golden bear account,gb account,sap solution manager,notes account,grc am spoc update,ebuy account,production system access request in digital foundation,update roles,update profiles,update licenses,access to skype,skype access,name change,change name,change my name,windows password reset,windows login password reset,ie trusted zone,access to mars sap,mars sap access,access to mobility,mobility access,reset mercury uk password,create new p drive folder,create new s drive folder,aia access,unlock web page,request an incident response,monitoring consultation,right answers,grc control manager,sap security password,sap security account,cellular account,change sparc template role,grc systems,compass new user,upgrade forensics platform,nexus password,nexus account,general request for information,information general request,restricted meeting room access rights,new apollo account,apollo new user id,apollo access level,new ibm partner,voyager new user id,voyager new access level,mars sap production access,remove sap accounts,extend contractor account,enable contractor account,change manager,change line manager,external email access,maestro account,tws account,grc firefighter id owner,grc firefighter id controller,rc new user account,proxy authentication bypass,access request to non production systems,citrix account,rc sap production access,mercury us password,forensics consultation,restore ppm account,create notes id,extend notes id,mercury new user,modify smb,non production system access,helios application,local admin access,atlas access,contractor display name exception request,bizrights access,security assessment,application assurance assessment,uperform access,conference id,conferencing id,skype conferecing,test id,training id,ppm account,change sparc derived role,wwy sap approval application,non production systems,shared folder access right request,associate to contractor,create wms role,change wms role,tpm cas access,external email access for contractor,new hire,onboarding,update grc ruleset,non production system access request in digital foundation apply pandora access,vendor risk,generic access,generic security,internet access,unix account,linux account,new beam account,upgrade malware guide,upgrade malware toolkit,dl member,modify dl member list,refresh rc database,rc database refresh,update grc model roles,helios account,unlock helios account,na petcare external email internet,update grc role owner,grc role owner update,access to qlikview dashboard,qlikview dashboard access,compass reset password,enterprise architecture review,new business partner account,splunk universal forwarded,install splunk universal forwarded,create balckout,disable balckout,create shared mailbox,site move,site transfer,standard change,open a new ticket,new ticket,open a ticket,notes id,upgrade windows,windows upgrade,upgrade to windows 10,upgrade windows 7,create account,create a new contractor account,create contractor account,create a user account,create a new user account,create new user account,create user account,contractor account,associate account,create a new associate account,windows 10,lotus notes,log a request,access to sap,sap access,remove ad account,create mars sap account,create wigley sap account,create ad account,remove account,conferencing,pstn,skype conferencing,mars sap,request a ticket,conference code,create ticket,open an incident,create incident,open incident,open ticket",
+      "activated": true
+    },
+    {
+      "name": "ApplicationName",
+      "mode": true,
+      "words": "storage strategy,friendly description,reporting,code management,setup german edi new trading partner profile,tolerance limits for invoice in sap,retrigger mcna pack bom,update existing user,manually run interface,manually run archived file,remove orphan products,schedule new emailed query,default printer setup,setup default printer,group management,anz elearning system,cost center splitting structure,cognos web application,wms item extension,batch management,production line code,easyres corpo,easyres corpo password reset,german edi trading partner connectivity establishment with mars,payscale areas maintenance table,change of existing variant for interfaces,account assignment,change approval limit,approval limit change,gdw online application,pm create development,pm create objective plan,update foreign trade country settings,request for information,batch determination strategy,edi onboarding new trading partners,edi new trading partners,change of target server for interfaces,rename an existing wagetype,translate an existing wagetype,access to company code,create a planner group,code package,access to lads,lads access,new dap user,vendor management,post and park configuration,modify chris information,setup locations for assets in sap system,customer pricing group,ariba emssm strategy workspace,brandcentral,add pa for polaris chris interface,warehouse management,create requisition group,delete requisition group,update requisition group,clearing requests in sap systems,sky email,new printer,change infotype configuration,wms report,setup tax rates,enclosures management,change org model,ad hoc batch job execution,delete payment order,payment order deletion,storage type,update ebuy approver,ebuy approver update,master data load in application systems,setup accounting clerks,trinity interface,mexico fe incident,delete standard cost estimates,scanners sap console configuration,union code in it57 for brazil,maximum hits,site maintenance,plant creation,create user to ariba emssm,route determination,wrigley new access sequence,wrigley new access combination,purchase release strategy,create new site codes,change site codes,delimit site codes,data pushes,sales region,fifo configuration,apq,iva,new brd cip request wms red prairie,create edpar table,update edpar table,setup company code data,change plant assignment,spec management,wms printer,sales group,change office,office creation,leaver cleaning,apply refresh total fixes,servicenow access,friendly links for qlikview,person responsible for project,person responsible for wbs,person responsible for im,cases management,update merit matrix table,create purchasing group,update purchasing group,delete purchasing group,manual send of idoc to corpdir,commodity codes,emssm contract workspace,3pl transfer files,transfer files,3pl transfer file,transfer file,update interface variant,update interface variant schedule,submit new crm parameter,material pricing group,ariba emssm contract,convert material to real batch,setup default account assignment,okb9,change payroll area period,update russian invoice table,delete ta mass,update ta mass,code template,mail management,update overhead rates,periodic batch jobs,new trading partner in sap,gcc forward management,update lookup table,lookup table update,territory management,panorama crm,sap user queries management,sq01,setup sap output device to zebra label printer,tms second level authorization access,change ebuy spend limit,change ebuy output limit,update sap batch job distribution list,create s - user for success factors community,business partners of panorama crm,easyres corpo account,change plant address of sap,atlas profit center creation,create atlas profit center,create calendar of sap,create sap calendar,change sap calendar,rc new user,new user of rc,moe,porg,program variant change,warp reporting,delete cost center,cost center deletion,run schedules,new logo for sap,new pa to corporate directory,associate profile portlet,access to ebuy catalog,ebuy catalog,atlas gl account,access to promax,promax access,change translation,change wording,create analytical report,export data to test systems,copy data to test systems,wera,wera request,default currency change,gcc store management,change periods,special procurement key,change ebuy responsiblilty,storage section,lsmw upload,upload lsmw,meridian application,risk categories,update tcurr currency rate,create tcurr currency rate,bank report,vendor report,helios engine support,chris id,setup terms of payment,change itms notification,product hierarchy,dwh data correction,correct dwh data,data correction in dwh,activate apo quota usage,change free text,domicilio fiscal master data,create edi partner profile,change edi partner profile,update masterlist,update pay plan,manufacturing factory,postal codes,new letter,edi to customers,symbolic accounts,regional application,upload data,reload data,print form,mercury,sa4 application,pdp template,course,itms,helios,ares,business application,bp,business partner,ratios,code,edi trading partner,warehouse printer,factory printer,price,price condition,pdp course,login mylearning,rerun mylearning,mylearning,mylearning access,itms access,user market,letter template,vendor,material,mpr,cip,disable account,terminate account,stop account,disable access,terminate access,stop access,category description,scope change,change scope,storage location,label,document,pay range,wms,warehouse,warehouse management system,taxonomy,productstation access,disable ariba emssm account,personal profile,personal area,nwbc translation,upload svp plan,upload svp butcher,upload ad plan,upload ad butcher,upload base plan,upload base butcher,payment payroll,ghost letter,phishing email,spam email,pyrchase order,ariba emssm account,ariba emssm,new trading partner,payscale,mrp,pet fe,snack fe,shift pattern,urchase requisition,availability,batches request,batches,review license,license review,delegation access,resend vendors,broadcast,crm parameter,event recovery,event struck,event struck in event recovery,resend idocs,create benefit plan,remove benefit plan,benefit plan,ebs changes,change ebs,ebs,program documentation,abc indicators,report question,ask a question,repport an issue,digital workplace,collaboration,townhall support,tv display,scala",
+      "activated": true
+    },
+    {
+      "name": "DriveOption",
+      "mode": true,
+      "words": "new shared drive,a new shared folder,shared drives,S drive,Sdrive,m drive",
+      "activated": true
+    },
+    {
+      "name": "GroupType",
+      "mode": true,
+      "words": "DL,Mailbox,ServiceNow,SNOW,AD,Email Group,distribution list,shared mailbox,shared mail box,share mailbox,servicenow,service now,snow,DMO email,mail group",
+      "activated": true
+    },
+    {
+      "name": "Hardware",
+      "mode": true,
+      "words": "Apple Watch,Dell Venue Tablet,iphone power cord,Mobile Power Cord,VC,Polycom,S4B,Standard Monitor,LA Device,Laptop Screen,Bent Laptop,Laptop Memory,Privacy Screen,Monitor Privacy Screen,Laotop Computer,Car Charger Power Cord,phone headset,Mobile Headset,Hard drive,Device,Wired Keyboard,Display Adaptor,Backpack,Computer Hard Drive,Hard Drive,Desk Phone,Avaya,Computer Checking,Healthcheck,Wired Mouse,Power Cord,Android Phone,AV Support,Audio,Video,Desktop Power Cord,Laser Pointer,iPhone,Apple Adaptor,Wireless Keyboard,Computer Battery,Wireless Mouse,Printer,One Sales Printer,USB Hub,Desktop,Tablet,Surface Pro,Laptop Docking Station,Tablet Docking Station,Headset,Office Headset,Carrying Issue,Monitor Stand,Desktop computer,La Generic,iphone battery,Mobile Battery,Laptop,Computer,USB,USB Memory Stick,iPad Tablet,La Preventive,Token,Computer Power Cord,Laptop Stand,Computer Space,Desktop Disk Space,disk space,Stylus,Microsoft Surface Pro 3,Surface Pro 3,PC battery,phone,mobile phone,mouse,hardware,cell phone",
+      "activated": true
+    },
+    {
+      "name": "LockOutType",
+      "mode": true,
+      "words": "AD,Mars SAP,Wrigley SAP,Kronos,Computer,Email,Skype,Sharepoint,Atlas,Ebuy,AAP,AAB,AAM,BAB,BAM,BAP,LAB,LAM,LAP,APB,APM,APP,APX,BPB,BPM,BPP,LPB,LPM,LPP,AEP,AEM,BEB,BEM,BEP,LEP,AMB,AMP,WGP,P12,Q12,P22,Q22,P52,Q52,D13,M12,P14,Q24,Q54,D22,C12,C22,D24,D31,Golden Bear,goldenbear,SAP",
+      "activated": true
+    },
+    {
+      "name": "PhoneType",
+      "mode": true,
+      "words": "Company,Personal,corporate,work phone,corporate phone",
+      "activated": true
+    },
+    {
+      "name": "SoftwareName",
+      "mode": true,
+      "words": "ABBYY Lingvo,Access Databases,Access Runtime,Accolade for MSProject,nielsen,Acolade,Adobe,Aladdin Knowledge Systems,APC Sheets,Apollo,Apple QuickTime,Apple TetheringIPhone,Aprotec Explorer,Arco Cute PDF Writer,Associate Training,AtlasToTrade,Authorised Substance List,AutoArchive,AutoArchiveRT,AutoCAD,AutoDesk,Autodesk,Aware Learning,Aztec,Bain Graphic Wizard,Bain Graphics Wizard,Barco Clickshare,Baynetworkscanner,Bentley View XM,Bezoekers Aanmelden,Blackberry Driver,BookShelf,BPC,BPIP Administration,Bromium Bromium vSentry,Bromium vSentry,BudgetBeheer,Business Everywhere,Business Objects,Category Information Database,Category Manager Browser,CDburnerXP,Cellcast,Chart FX,ChocPit Reporting,Chromas Lite,Citrix Receiver,Citrix System ICA Web Client,Codec Pack Mega,Cognos Powerplay Benutzer,Computrace,Contractor Training,CoreFTP Lite,Crew Training,Crystal Analysis,Crystal Reports,CWR,Cyberlink PowerDVD,Danware Net OP Host,Datalog,Datalyzer,DB Contestazioni,DEDUCO Salesforce Server,Demand Financials Administration,Design Expert,DeutscheBank,DeutscheBank DeutscheBank,DIRECT,DivX,Dobl,Document Selection,DOTPDN Paint . Net,Drivers for Option GlobeTrotter,DWG TrueView,e ! Sankey,EBuy Mars,Ebuy Masterfoods Mexico,ECAT,ElectricalCertificationSystem,Ellab ValSuite,Elprolog,Ensure Compliance,EPM Excel,eQuality,Eurodico,Exceed,Executive Apps,Factory Recipe Report,Far Manager,Fiberlink Dialer . ini Update,FileZilla,Financial Planning Admin,Firefox,FIS Viewer,FixCosts,Fizz Server,Fizz Terminal,Focus Sales Germany,Forgotten Password,FormEdit,Frontpage,Gcc,German Lotse Pet,GFMH,Gfos Xtime Web,GIB,GlobeTrotter Connect,GLWedge,GOGlobalClient,Graphic Wizard,Greenshot,GricDial,GuiXT,Gum segmentNielsen Answers Desktop,GWord,Hansalog Global Client,Hotsync Manager,HP QCExplorer,HWP,Hyparchiv,IBM Notes,ICA Web Client,IE Proxy Config Force Reset,IgorPavlov,Image Library,Image Robot,IMPACT for Office,InfoPath,InnoCielo Meridian,INSER ADMIN,Interflex,Interflex webclient,Internet Explorer,Invectec Group Dr . Eye,Iomega Storage Manage,IP Softphone,IrfanView,IRI PlusSuite,Irmagent,iSams,ISDN Fritzcard USB,iSeries Access,ISI Note de Frais,Itemsshipment,ITK Online Monitoring Tool and Quality Dashboard,ITK SRC Tool,IXOS Suite,Java,Java Runtime,KACE Agent,Kantine Verden,KeyView,Kite Codec Pack Mega,Kostka,kronos,Labourplanning,Lijnsnelheid TrakSys,Lingvo,Logincomms,LogincommsXP,Logistics Administration,Logon Administration,Lync,MaintStar,MAPP,Marc,Marketing Tracker4,Mars Accolade for MSOffice,Mars Anywhere Desktop,Mars Anywhere Laptop,Mars Aurora,Mars Calendar,Mars CellCast Desktop,Mars Cellcast withoutAdobe Air,Mars Disable Active Scripting For Internet Zone in IE,Mars DisableLMScript,Mars Enable Active Scripting For Internet Zone in IE,Mars Essential Glass List,Mars Extra,Mars Factory Management System,Mars Fix Slow Logon and Group policy and Shared fold,Mars Fizz Server,Mars Fonts,Mars Forgotten Password,Mars GAR Vaztarasciai,Mars Impala ReadSoft Invoice,Mars McTiVia,Mars Media Pool,Mars MFG Web Germany,Mars Novell GINA set Passive mode,Mars Office Templates,Mars Period Calendar,Mars Pixma MX885,Mars QITS,Mars Range Manager,Mars Range Manager Food,Mars Range Manager Pet,Mars ReisekostenGermanyOnline,Mars Replace Login Drive,Mars Reset IE Auto Lan Setting,Mars Reset IE I2D,Mars Reset my Wireless Card for MDS7,Mars RWD uPerform Client,Mars SDS Backup,Mars Second Copy,Mars Serengeti Law,Mars Service Desk,Mars Space Planning,Mars Stars,Mars Time,Mars Timerc,Mars Timere,Mars Trend BMS,Mars Unregister VGX DLL,Mars Wanda,Mars Win7WirelessProfile3 . 0,MarsMessageCentre,Mars Protected,maRSS Reader,MDI Operator PIN Code Admin,MDI Process Viewer,MDIDataConfigurationAdmin,MDIPouchCodeAdmin,Meridian,Message Manager,MFC,MFI Web Reports,Micro Focus Rumba,Microconsultants GLWedge,Microsaoft Silverlight,Microsoft Access,Microsoft Access Runtime,Microsoft AD Migration Patches,Microsoft BGInfo,Microsoft DotNetFramework,Microsoft Expression Web 4,Microsoft Internet Explorer,Microsoft Java Virtual Machine,Microsoft Live Meeting,Microsoft Lync Cumulative Update,Microsoft Lync MUI,Microsoft Lync SDSXP7,Microsoft MBAM client,Microsoft NX PowerLite,Microsoft Office,Microsoft Patch,Microsoft Primary Interoperability Assemblies,Microsoft Project,Microsoft Shadow Copy Client,Microsoft SQL Server Express,Microsoft Statigest for remote Users,Microsoft Telemetry Agent,Microsoft Visio,Microsoft Visual,Microsoft Warp,Microsoft WindowsMobileDeviceCenter 6,Mig,Mind Manager,Minitab Statistical Software,Mobatime,MODDE,MODULE,Mpower le site PO,MS Access,MS InfoPath Designer,MS Lync,MS Office,MS Publisher,MS SharePoint Workspace,MS Visio Standard,Multipack,Multiscience Multipack,Navisworks Freedom,Nero Essentials,NetManage Rumba,NexonTIME client,Nfuse Elohn Telefonliste,Nielsen Answers Database Manager,Nielsen Answers Desktop,NIRVIEWER,Nokia PC Suite,Notes Admin,Notes Designer,Novell Client,NTStart,NumlockKey,NWA Quality Analyst,OBL Favorities,Ocelotproductiontraining,ODBC QUASAR,Office,Office Site Templates,Office Template Germany,OfficeJet Pro,Onda Connection Manager,Online Monitoring,Oracle,Oracle Database,Oracle JAVA,Oracle Sales Analyzer,Oracle User Maintenance,Orca,Organization Chart,OSISoft PI ProcessBook,Outlook,Overhead Reporting,Packspec,PacSpec,Paint Shop Pro,PaintNET,PanaceSTD,Password Vault,PayrollURL,PC Express,PDF Writer,Pdls,Personal Express,PetCareAC Nielsen Nielsen Answers,Photoshop,PI Datalink,PI Launcher,PI ODBC,PI Processbook,Pims,PISDK,Pixma MX850 Printer Driver,PlanningSystem,PlusSuite,Pouch MDI,Power Archiver,PowerDVD,PowerHouse,Powerplay Benutzer,Powerword,PPM,Printkey,Prism,Product Fact Sheet CS,Product Fact Sheet Newlineforms,Product Fact Sheet Sales,Proficient,Project,Project Standard,Projette,Prospace,PSRS,Putty,PWN,QCD,QiA Screensaver,R Statistics,R & D IC Application,Reflection Icons,Reflection Shortcuts,Reflections,ReisekostenAbrechnungonline,Research in Motion BlackBerry Desktop Software,ResetWireless,Retiming Tool,Rifatturazione,RMS Sharing,Rollback Mars Unregister VGX DLL,Sales Force Local,Sales Master One,Sales Master One Office,SAM,Samsung Samsung Kies,SAP BusinessObjects Analysis,SAP BW,SAP GuiXT shortcuts and User Defaults,SAP Lumira,SAP NWBC,SAPGui,SAPGui Gatekeeper,SAPGui INI Update,SAPTutor,Scansoft Paper Port Viewer,Scorpion,Scrap Rework plus USB,Screen Hunter,SDS Backup,SecurityWebCams,SelecTarif,Shift Crewing,Shift Expert,ShiftLock,Siebel Excel,Silverlight,SIMCA,Skype,Smartapproval,Social Sites Desktop,Softcon,Software ConturELN Client,SolidWorks Enterprise PDM,Sonde Orion,SOP Database,Spaceman,SPACEMAN Merchandiser,Spider,SQL Server,Statgraphics,STATGRAPHICS Centurion XVI,Statigest for remote users,Tethering IPhone,Stoaned3,Sun Java,Sun Java Runtime,Superpac,SVG Viewer Active X Control,Sycon Datalyzer Spectrum,Symantec,Synovate,Synovate Aztec Synovate,TDC Securite,TeamViewer for MSD,TeamViewer for User 9,TechSmith Corporation SnagIT,Telefony,TH Codes,TH View,Thai Dictionary,ThermoModel,Think Cell Chart,Tibco Foresight EDISIM,Tightvnc,Tildes Biuras,TMS,Top,Total Commander,TPM,TQM,Track Sense Pro Reader Station USB Driver,Trade,Traksys,Transit Pass,Travel Management OfflineClient,Travel10,Tulox Dictionary,Tulox Dictionary French,Ukranian Lingvo,uPerform Client,UsefullLinks,ValSuite,Vet Diary,Visio,VLC Player,Vodafone Mobile Connect,Volt Visualizer,VSN Besucher,Waivers,Waste Management System,WCPN Image Bank,WCPN Visitor Booking,Webreise,WeekPlan,WERA Admin Tool,Windows LiteShow3 Manager,WinSPC,Wrigley WPS,WrigleyOEM Update,WTP,WTP Admins,WTP Fabriek Operators,WTP for Engineering,XMind,XP3 Viewer Dependencies,Xtime,ZeitNet,avaya,verden,nwbc,PDF,software,lotus notes",
+      "activated": true
+    },
+    {
+      "name": "System Type",
+      "mode": true,
+      "words": "AD,Computer,Email,Skype,SharePoint,Atlas,Ebuy,AAP,AAB,AAM,BAB,BAM,BAP,LAB,LAM,LAP,APB,APM,APP,APX,BPB,BPM,BPP,LPB,LPM,LPP,AEP,AEM,BEB,BEM,BEP,LEP,AMB,AMP,WGP,P12,Q12,P22,Q22,P52,Q52,D13,M12,P14,Q24,Q54,D22,C12,C22,D24,D31,SAP",
+      "activated": true
+    },
+    {
+      "name": "WWL-SAP",
+      "mode": true,
+      "words": "P12,Q12,P22,Q22,P52,Q52,D13,M12,P14,Q24,Q54,D22,C12,C22,D24,D31,Wrigley SAP",
+      "activated": true
+    }
+  ],
+  "regex_features": [
+    {
+      "name": "TicketNumber",
+      "pattern": "INC[\\d]{7,7}|RITM[\\d]{7,7}",
+      "activated": true
+    }
+  ],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "add me to a group",
+      "intent": "AddToGroup",
+      "entities": []
+    },
+    {
+      "text": "already changed password",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "am i allowed to have an iphone for work?",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 24,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "are you able to assist with mapping my t drive?",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "are you able to help me with a question about snow tickets?",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "at ark need to change a vlan from ip address this to that",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "but it require administrator access",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can i apply iphone x?",
+      "intent": "ApplyHardware",
+      "entities": []
+    },
+    {
+      "text": "can i call you?",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "can i get skype installed on my computer?",
+      "intent": "InstallSoftware",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 10,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "can i have pdf in my computer?",
+      "intent": "InstallSoftware",
+      "entities": []
+    },
+    {
+      "text": "can i install mars time",
+      "intent": "InstallSoftware",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 14,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "can i order a token?",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 14,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "can i please get some help resetting the password for sap",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "can i request a password for an associate",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "can i send you an email?",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "can i use docker?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can we give access to a sharepoint site for external",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can you arrange ticket quicker",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can you check a requested ticket upload i had?",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "can you check for me?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can you check my account",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can you check to see if iphone is due for an upgrade.",
+      "intent": "AskMobileIssue",
+      "entities": [
+        {
+          "entity": "PhoneOS",
+          "startPos": 24,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "can you give me the number of mars service desk?",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "can you help me to change manager?",
+      "intent": "RequestAccess",
+      "entities": [
+        {
+          "entity": "AccessName",
+          "startPos": 19,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "can you help me with my ad unlock ?",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 24,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "can you help me with my password reset?",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "can you map my computer to the shared drive?",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "can you please let me know how to submit an it ticket for a new phone?",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 64,
+          "endPos": 68
+        }
+      ]
+    },
+    {
+      "text": "can you provide me a phone number to contact the service desk",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "can you raise one request for me",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can you reroute the ticket for me?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "cannot change password from home",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "cannot log into my outlook account",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "cannot open pulse to change password",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "check ticket status",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "could i have apply another computer",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 27,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "could you help me check my open tickets?",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "could you help me to enable the skype for these users",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "could you help me with checking the interface?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "could you please take a look on the ticket ritm0369546 ?",
+      "intent": "CheckTicketStatus",
+      "entities": [
+        {
+          "entity": "TicketNum",
+          "startPos": 43,
+          "endPos": 53
+        }
+      ]
+    },
+    {
+      "text": "could you please unlocked my colleagues account?",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "could you route incident to a team",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "could you set password for account in both domains?",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "could you update me on a request?",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "could you update me on inc0097968?",
+      "intent": "CheckTicketStatus",
+      "entities": [
+        {
+          "entity": "TicketNum",
+          "startPos": 23,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "create sap account",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "did sap user flagged in mim",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "did you check?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "distribution list will also be an active directory security group",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "do i have still ticket opened",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "do we have the software smartsheet license?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "do you know how to reset my pwd?",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "do you know how to set up mobile skype",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "do you know how to unlock my p12 account ?",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 29,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "do you know service telephone number?",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "do you know the password of protected 6 wifi",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "do you know wifi password",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "do you work on the msd?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "everytime i open up my internet it come up in spanish",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "external sharing on sharepoint",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "folder access request",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "get a dial in number added to my skype link",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "he is a new sap user",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "headset is not recognized by computer",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 0,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "helios no work fine",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "ApplicationName",
+          "startPos": 0,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "hello, can you please doublecheck if weertmar has a label to his corporate iphone 4s?",
+      "intent": "AskMobileIssue",
+      "entities": [
+        {
+          "entity": "PhoneType",
+          "startPos": 65,
+          "endPos": 73
+        },
+        {
+          "entity": "PhoneOS",
+          "startPos": 75,
+          "endPos": 80
+        }
+      ]
+    },
+    {
+      "text": "hi team any update regarding inc0123011",
+      "intent": "CheckTicketStatus",
+      "entities": [
+        {
+          "entity": "TicketNum",
+          "startPos": 29,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "how about my ticket inc3332222",
+      "intent": "CheckTicketStatus",
+      "entities": [
+        {
+          "entity": "TicketNum",
+          "startPos": 20,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "how can i access to the system if my ad is locked?",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "how can i apply external email access?",
+      "intent": "ApplyExEmailAccess",
+      "entities": []
+    },
+    {
+      "text": "how can i apply the access to external email?",
+      "intent": "ApplyExEmailAccess",
+      "entities": []
+    },
+    {
+      "text": "how can i call mars service desk",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "how can i connect office network?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how can i contact mars service desk?",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "how can i find external people in skype?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how can i find out the request form to delete a distribution list?",
+      "intent": "AddToGroup",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 48,
+          "endPos": 64
+        }
+      ]
+    },
+    {
+      "text": "how can i get a new office headset?",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 20,
+          "endPos": 33
+        }
+      ]
+    },
+    {
+      "text": "how can i get access to a distribution list",
+      "intent": "AddToGroup",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 26,
+          "endPos": 42
+        }
+      ]
+    },
+    {
+      "text": "how can i get installed lotus notes client?",
+      "intent": "InstallSoftware",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 24,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "how can i give someone access to my email",
+      "intent": "AddToGroup",
+      "entities": []
+    },
+    {
+      "text": "how can i install outlook in my phone?",
+      "intent": "AskMobileIssue",
+      "entities": []
+    },
+    {
+      "text": "how can i log a ticket rushed?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how can i log in skype",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how can i request a phone?",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 20,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "how can i request for a new shared drive?",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "how can i request for a token?",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 24,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "how can i reset the pin on my iphone",
+      "intent": "AskMobileIssue",
+      "entities": [
+        {
+          "entity": "PhoneOS",
+          "startPos": 30,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "how can i set up a new shared drive",
+      "intent": "AskSDriveIssue",
+      "entities": [
+        {
+          "entity": "DriveOption",
+          "startPos": 19,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "how can i set up a new shared folder?",
+      "intent": "AskSDriveIssue",
+      "entities": [
+        {
+          "entity": "DriveOption",
+          "startPos": 19,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "how can i set up a request for a new shared folder?",
+      "intent": "AskSDriveIssue",
+      "entities": [
+        {
+          "entity": "DriveOption",
+          "startPos": 33,
+          "endPos": 49
+        }
+      ]
+    },
+    {
+      "text": "how can i setup email on my mobile?",
+      "intent": "AskMobileIssue",
+      "entities": []
+    },
+    {
+      "text": "how can i submit the monitor request?",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 21,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "how do i configure avaya soft phone",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 19,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "how do i create a new share folder?",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "how do i dial an international phone number on desk lines",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "how do i get skype 2016 client?",
+      "intent": "InstallSoftware",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 13,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "how do i order a skype headset",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 23,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "how do i set up a dial in on skype meeting",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how do i share with an external user on sharepoint?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how i can get password reset?",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "how i can order a laptop charger for someone?",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 18,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "how i can start my laptop",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how to add a user to group dl",
+      "intent": "AddToGroup",
+      "entities": []
+    },
+    {
+      "text": "how to call msd?",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "how to change my passwords?",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "how to check eform status",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how to configure email on my cellphone",
+      "intent": "AskMobileIssue",
+      "entities": []
+    },
+    {
+      "text": "how to delete mars calendar from outlook",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how to download mars calendar",
+      "intent": "InstallSoftware",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 16,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "how to export distribution list",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how to get a stylus",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 13,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "how to receive email in my cell phone?",
+      "intent": "AskMobileIssue",
+      "entities": []
+    },
+    {
+      "text": "how to reset desk phone",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how to revoke servicenow access",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how to send email out of mars?",
+      "intent": "ApplyExEmailAccess",
+      "entities": []
+    },
+    {
+      "text": "how to send email to my vendor?",
+      "intent": "ApplyExEmailAccess",
+      "entities": []
+    },
+    {
+      "text": "how to set up video conference",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how to setup email on my phone?",
+      "intent": "AskMobileIssue",
+      "entities": []
+    },
+    {
+      "text": "how to update material group",
+      "intent": "RequestApplication",
+      "entities": [
+        {
+          "entity": "ApplicationName",
+          "startPos": 7,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "how to use pstn?",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "AccessName",
+          "startPos": 11,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "i am following up on this incident inc0481513 that username was dealing with",
+      "intent": "CheckTicketStatus",
+      "entities": [
+        {
+          "entity": "TicketNum",
+          "startPos": 35,
+          "endPos": 44
+        }
+      ]
+    },
+    {
+      "text": "i am going to leave mars how can i do?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i am having password issues",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "i am having trouble connecting to my local drives",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "i am having trouble connecting to my wifi",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i am just wanting to check on status of issue i emailed this morning",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "i am locked wrigley sap",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "i am not able to install one of application called mapp bbn from sw center",
+      "intent": "InstallSoftware",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 51,
+          "endPos": 54
+        }
+      ]
+    },
+    {
+      "text": "i am not able to log into sap",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "i am skyping on behalf the corporate team",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i am the owner of the distribution list and would like to have one associate added to the list",
+      "intent": "AddToGroup",
+      "entities": []
+    },
+    {
+      "text": "i am the owner of the file and cannot access it to change it",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i am trying to login and map drives",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "i am wanting to install nwbc on my laptop",
+      "intent": "InstallSoftware",
+      "entities": []
+    },
+    {
+      "text": "i am working from home and cannot map my drive",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "i appear to be locked out of kronos",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 29,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "i appear to have been locked out of ebuy",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "i blocked my sap password and i forgot that i had changed it",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 13,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "i can no longer see notes on outlook or phone after holiday",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i can not enter my pc",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "i cannot access the s drive for something can you help map it to my laptop?",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "i cannot connect to wireless with my laptop",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i cannot find the supplier in lotus notes",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i cannot log in sap",
+      "intent": "ResetPassword",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 16,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "i cannot login to my business objects account",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "i cannot login to my computer",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "i cannot open the new desktop",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i cannot print",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i cannot receive email on my cell phone",
+      "intent": "AskMobileIssue",
+      "entities": []
+    },
+    {
+      "text": "i cannot switch my language",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i conveyed the new password to her",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i do not have the ticket number",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "i do not know the answer of 3 questions when reset password",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i do not see variantes in sap",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 26,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "i dont get the notification from system",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i forgot my ad account name",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 12,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "i forgot my pwd",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "i got internet explorer errors after applying windows 10 anniversary update",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i got locked out of the account",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "i had sapgui on my old comupter and i need to reinstall it",
+      "intent": "InstallSoftware",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 6,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "i have a cell phone issue please help to fix",
+      "intent": "AskMobileIssue",
+      "entities": []
+    },
+    {
+      "text": "i have a driver access issue",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "i have a file that is locked for editing by another user",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i have a new personal iphone and want to switch my mail to the new phone",
+      "intent": "AskMobileIssue",
+      "entities": [
+        {
+          "entity": "PhoneType",
+          "startPos": 13,
+          "endPos": 20
+        },
+        {
+          "entity": "PhoneOS",
+          "startPos": 22,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "i have a new phone number",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 13,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "i have a problemm logging on the wrigley sap system",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "i have a user who has his sap account blocked",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 26,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "i have an incident open that has not been actioned inc0135189",
+      "intent": "CheckTicketStatus",
+      "entities": [
+        {
+          "entity": "TicketNum",
+          "startPos": 51,
+          "endPos": 60
+        }
+      ]
+    },
+    {
+      "text": "i have an issue about shared folder",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "i have an issue with my computer",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 24,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "i have an issue with my corporate",
+      "intent": "AskMobileIssue",
+      "entities": [
+        {
+          "entity": "PhoneType",
+          "startPos": 24,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "i have an outstanding ticket",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i have asked already to release my password to wrigley sap",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 47,
+          "endPos": 57
+        }
+      ]
+    },
+    {
+      "text": "i have created a request for a new shared drive",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "DriveOption",
+          "startPos": 35,
+          "endPos": 46
+        }
+      ]
+    },
+    {
+      "text": "i have forgotten passcode for my computer",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "i have got a new laptop",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i have hardware problem",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i have installed java",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 17,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "i have mobile issue",
+      "intent": "AskMobileIssue",
+      "entities": []
+    },
+    {
+      "text": "i have my account locked to sign in to my computer",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "i have problem send emails outside mars",
+      "intent": "ApplyExEmailAccess",
+      "entities": []
+    },
+    {
+      "text": "i have received access to a shared mailbox but still cannot see it",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 28,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "i have reset my password but it did not work",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i have send password to line manager",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i have some problem with my work phone",
+      "intent": "AskMobileIssue",
+      "entities": [
+        {
+          "entity": "PhoneType",
+          "startPos": 28,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "i have submitted a request for contractor to associate",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i have trouble mapping to an existing folder",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "i just need to configure a printer",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 27,
+          "endPos": 33
+        }
+      ]
+    },
+    {
+      "text": "i just send mail to msd",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i just want to follow up on my ticket inc0411156",
+      "intent": "CheckTicketStatus",
+      "entities": [
+        {
+          "entity": "TicketNum",
+          "startPos": 38,
+          "endPos": 47
+        }
+      ]
+    },
+    {
+      "text": "i lost connection to lotus notes",
+      "intent": "InstallSoftware",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 21,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "i need a new laptop",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 13,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "i need a small help",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need a token",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 9,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "i need access to servicenow",
+      "intent": "AddToGroup",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 17,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "i need access to shared mailbox but do not know the owner",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 17,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "i need an ebuy epp user unlocked",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 10,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "i need assistance with connectivity",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "i need assistance with kronos website",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need business partner desktop",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 24,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "i need extend contractor account",
+      "intent": "RequestAccess",
+      "entities": [
+        {
+          "entity": "AccessName",
+          "startPos": 7,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "i need external email",
+      "intent": "ApplyExEmailAccess",
+      "entities": []
+    },
+    {
+      "text": "i need help to log a ticket",
+      "intent": "RequestAccess",
+      "entities": [
+        {
+          "entity": "AccessName",
+          "startPos": 15,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "i need help with m",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need instructions for setting up video conference",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need lotus notes how do i install it",
+      "intent": "InstallSoftware",
+      "entities": []
+    },
+    {
+      "text": "i need mars calendar in my outlook",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 27,
+          "endPos": 33
+        }
+      ]
+    },
+    {
+      "text": "i need mars protected 6 wifi password",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need my write off link restored in lotus notes database",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need network access for external resource",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need new password for sap",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "i need new password for wrigley sap",
+      "intent": "ResetPassword",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 24,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "i need site transfer",
+      "intent": "RequestApplication",
+      "entities": [
+        {
+          "entity": "ApplicationName",
+          "startPos": 7,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "i need the access to email group",
+      "intent": "AddToGroup",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 21,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "i need to connect to mars protected wireless in the office",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need to get an email account added",
+      "intent": "AddToGroup",
+      "entities": []
+    },
+    {
+      "text": "i need to get an sdrive mapped to my computer",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "i need to have a monitor for my desktop.",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 17,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "i need to have my password unlocked for sap",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 40,
+          "endPos": 42
+        }
+      ]
+    },
+    {
+      "text": "i need to install a program on my computer",
+      "intent": "InstallSoftware",
+      "entities": []
+    },
+    {
+      "text": "i need to recover sap",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need to reinstall a program",
+      "intent": "InstallSoftware",
+      "entities": []
+    },
+    {
+      "text": "i need to unlock iphone",
+      "intent": "AskMobileIssue",
+      "entities": [
+        {
+          "entity": "PhoneOS",
+          "startPos": 17,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "i need to update my outlook with the meeting rooms",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need to visit the public disk of the factory",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "i receive error when input sap user",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 27,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "i received a fraud mail, how should i handle it ?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i reset password and it says user does not exist",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i try to login to sap netweaver and it keeps telling me my password is not right",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "i type my username and password but get no further",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i typed more than 3 times the password in sap and now i can no longer access",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 42,
+          "endPos": 44
+        }
+      ]
+    },
+    {
+      "text": "i want a new computer",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 13,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "i want a new password on wrigley sap system",
+      "intent": "ResetPassword",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 25,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "i want a new printer",
+      "intent": "RequestApplication",
+      "entities": [
+        {
+          "entity": "ApplicationName",
+          "startPos": 9,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "i want a ppm account",
+      "intent": "RequestAccess",
+      "entities": [
+        {
+          "entity": "AccessName",
+          "startPos": 9,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "i want a stylus",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 9,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "i want firefox installing",
+      "intent": "InstallSoftware",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 7,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "i want go apply a shared drive",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "i want my account unlocking",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "i want my password resetting",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "i want my password unlocked",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "i want nielsen installation",
+      "intent": "InstallSoftware",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 7,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "i want to access mercury uk",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to access to a folder",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "i want to activate skype account",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to add a person to distribution list",
+      "intent": "AddToGroup",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 26,
+          "endPos": 42
+        }
+      ]
+    },
+    {
+      "text": "i want to add a person to shared drive",
+      "intent": "AddToGroup",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 26,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "i want to add a person to shared mailbox",
+      "intent": "AddToGroup",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 26,
+          "endPos": 39
+        }
+      ]
+    },
+    {
+      "text": "i want to add user to email group",
+      "intent": "AddToGroup",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 22,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "i want to add user to mail group",
+      "intent": "AddToGroup",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 22,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "i want to add user to shared folder",
+      "intent": "AddToGroup",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 22,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "i want to add xxx from an email group",
+      "intent": "AddToGroup",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 26,
+          "endPos": 36
+        }
+      ]
+    },
+    {
+      "text": "i want to apply a display adaptor",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 18,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "i want to apply for a new monitor",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 26,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "i want to apply for apq",
+      "intent": "RequestApplication",
+      "entities": [
+        {
+          "entity": "ApplicationName",
+          "startPos": 20,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "i want to apply for external email access",
+      "intent": "ApplyExEmailAccess",
+      "entities": []
+    },
+    {
+      "text": "i want to apply for external mail",
+      "intent": "ApplyExEmailAccess",
+      "entities": []
+    },
+    {
+      "text": "i want to apply for mars sap account",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 20,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "i want to apply hardware",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 16,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "i want to apply mail group",
+      "intent": "AddToGroup",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 16,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "i want to ask sfb set up",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to change a defected public keyboard and screen at our office site",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 35,
+          "endPos": 42
+        },
+        {
+          "entity": "Hardware",
+          "startPos": 48,
+          "endPos": 53
+        }
+      ]
+    },
+    {
+      "text": "i want to change a password",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "i want to change my sap id to my windows log in id",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to check general incident",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "i want to check if her site transfer form completed",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to check issue approving ritm",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "i want to check the status of a shared mailbox",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 32,
+          "endPos": 45
+        }
+      ]
+    },
+    {
+      "text": "i want to check ticket",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "i want to create a distrubution email list for external email addresses",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to create edpar table",
+      "intent": "RequestApplication",
+      "entities": [
+        {
+          "entity": "ApplicationName",
+          "startPos": 10,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "i want to create notes id",
+      "intent": "RequestAccess",
+      "entities": [
+        {
+          "entity": "AccessName",
+          "startPos": 10,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "i want to enable my skype access",
+      "intent": "RequestAccess",
+      "entities": [
+        {
+          "entity": "AccessName",
+          "startPos": 20,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "i want to get to alchemy because the websites are not present in the internet explorer",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to have a new phone",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 21,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "i want to have skype meeting dial in number",
+      "intent": "AskConfNumber",
+      "entities": []
+    },
+    {
+      "text": "i want to install headphones on computer",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 18,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "i want to install wtp",
+      "intent": "InstallSoftware",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 18,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "i want to invite my line manager to my group",
+      "intent": "AddToGroup",
+      "entities": []
+    },
+    {
+      "text": "i want to know mars service desk number",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "i want to know some information on incident in servicenow",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "i want to know the conference number",
+      "intent": "AskConfNumber",
+      "entities": []
+    },
+    {
+      "text": "i want to login to my computer",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "i want to logon and map network drive",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "i want to move my ticket to next step",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to organize a conference call but dont have conference calling number",
+      "intent": "AskConfNumber",
+      "entities": []
+    },
+    {
+      "text": "i want to re open ticket",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to reload my mars sap password",
+      "intent": "ResetPassword",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 20,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "i want to request a 3pl transfer files",
+      "intent": "RequestApplication",
+      "entities": [
+        {
+          "entity": "ApplicationName",
+          "startPos": 20,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "i want to request a corporate credit card",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to request access to citrix account",
+      "intent": "RequestAccess",
+      "entities": [
+        {
+          "entity": "AccessName",
+          "startPos": 28,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "i want to request access to s drive",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "i want to request an apple ipad charger",
+      "intent": "ApplyHardware",
+      "entities": []
+    },
+    {
+      "text": "i want to request for a new shared drive",
+      "intent": "AskSDriveIssue",
+      "entities": [
+        {
+          "entity": "DriveOption",
+          "startPos": 24,
+          "endPos": 39
+        }
+      ]
+    },
+    {
+      "text": "i want to request something",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to reset ad password",
+      "intent": "ResetPassword",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 16,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "i want to reset computer",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to reset ie",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to reset my ad password.",
+      "intent": "ResetPassword",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 19,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "i want to reset my mars sap password",
+      "intent": "ResetPassword",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 19,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "i want to reset my pwd",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "i want to reset my sap pwd",
+      "intent": "ResetPassword",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 19,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "i want to reset my wrigley sap password",
+      "intent": "ResetPassword",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 19,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "i want to set up a new shared drive",
+      "intent": "AskSDriveIssue",
+      "entities": [
+        {
+          "entity": "DriveOption",
+          "startPos": 19,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "i want to set up my new shared drive",
+      "intent": "AskSDriveIssue",
+      "entities": [
+        {
+          "entity": "DriveOption",
+          "startPos": 20,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "i want to setup email on my phone",
+      "intent": "AskMobileIssue",
+      "entities": []
+    },
+    {
+      "text": "i want to setup lotus notes",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to sync a sharepoint folder to my one drive",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to sync password",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to unlock my aam account",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 20,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "i want to unlock my account",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "i want to unlock my password",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "i want to unlock my pwd",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "i want to unlock my sap password",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 20,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "i want to unlock my sap pwd",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 20,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "i want to unlock sap",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 17,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "i want to upgrade my mars issued iphone",
+      "intent": "AskMobileIssue",
+      "entities": [
+        {
+          "entity": "PhoneType",
+          "startPos": 33,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "i want update profiles",
+      "intent": "RequestAccess",
+      "entities": [
+        {
+          "entity": "AccessName",
+          "startPos": 7,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "i was on split screen at the office",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i will present desktop",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i wonder if you can help me with my mars sap account ?",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 36,
+          "endPos": 43
+        }
+      ]
+    },
+    {
+      "text": "i would like some assistance with password unblocking",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "i would like to discuss regarding the ritm0370501",
+      "intent": "CheckTicketStatus",
+      "entities": [
+        {
+          "entity": "TicketNum",
+          "startPos": 38,
+          "endPos": 48
+        }
+      ]
+    },
+    {
+      "text": "i would like to install software on my pc",
+      "intent": "InstallSoftware",
+      "entities": []
+    },
+    {
+      "text": "i would like to request external email access",
+      "intent": "ApplyExEmailAccess",
+      "entities": []
+    },
+    {
+      "text": "i would like to unblock my webcycle account",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "if someone has a citrix account",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "AccessName",
+          "startPos": 17,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "in the share folder user can not upload the file",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "inc8209388",
+      "intent": "CheckTicketStatus",
+      "entities": [
+        {
+          "entity": "TicketNum",
+          "startPos": 0,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "is there a cost to do so?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is there a way to save filenames without change the name",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is this a global password",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "is this msd",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "it is sales sw specific to mars cd",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "kronos is currently down",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "let me know status of incident",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "locking sap account",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "log in to mxp",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "map my h drive",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "mobile device management is already installed",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 0,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "modification of distribution list details",
+      "intent": "AddToGroup",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 16,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "my access to nexus unfortunately not able to see all required documents",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "my account is locked",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "my ad locked out",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "my computer cannot connect internet",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "my computer cannot install my wireless mouse",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 30,
+          "endPos": 43
+        }
+      ]
+    },
+    {
+      "text": "my corporate computer is lost",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 13,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "my ebuy is not working",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 3,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "my email is not syncing to my mobile",
+      "intent": "AskMobileIssue",
+      "entities": []
+    },
+    {
+      "text": "my fellow needs assistance with user id and password",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "my friend is locked out of her laptop",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "my keyboard is not working",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 3,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "my keyboard just broke",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 3,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "my kronos id is blocked",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 3,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "my mars sap is blocked",
+      "intent": "UnlockAccount",
+      "entities": [
+        {
+          "entity": "LockOutType",
+          "startPos": 3,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "my mobile is not working",
+      "intent": "AskMobileIssue",
+      "entities": []
+    },
+    {
+      "text": "my mobile is stolen",
+      "intent": "ApplyHardware",
+      "entities": []
+    },
+    {
+      "text": "my mobile phone has an issue",
+      "intent": "AskMobileIssue",
+      "entities": []
+    },
+    {
+      "text": "my mobile phone has been stolen",
+      "intent": "ApplyHardware",
+      "entities": []
+    },
+    {
+      "text": "my mouse has issue",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 3,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "my mouse is out of battery",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "my offcie headset is broken",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 3,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "my old work phone number is no longer active",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "my open tickets",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "my outlook is not working",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "my outlook keeps asking for password",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "my password expires does not meet password requirements",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "my password has reset",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "my password is locked",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "my printer cannot identify me",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "my shared folders have disappeared off my computer",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "my skype calls keep crashing for the last one hour",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "my ticket is still pending can you tell me why it delay",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "need help in exporting mail addresses from a distribution list on outlook",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "need password reset for someone",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "need to report lost phone",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "new shared folder",
+      "intent": "AskSDriveIssue",
+      "entities": [
+        {
+          "entity": "DriveOption",
+          "startPos": 0,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "nielsen has installed successfully",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 0,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "not able to login to vdi",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "not able to login with the initial password seeing error as invalid credentials",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "one of the associates unable to login to his laptop",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "our sap account is blocked",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "password never expired",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "password reset is not working",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please close the ticket",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please give a new password for sap p12 for glowackir",
+      "intent": "ResetPassword",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 35,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "please help to force the sap gui installation in my machine",
+      "intent": "InstallSoftware",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 25,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "please provide me a new password for username",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "please push a adobe to my laptop",
+      "intent": "InstallSoftware",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 14,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "please share the phone number for mars service desk",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "release the blocked on sap access",
+      "intent": "RequestAccess",
+      "entities": [
+        {
+          "entity": "AccessName",
+          "startPos": 23,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "remove a person to email group",
+      "intent": "AddToGroup",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 19,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "request chairperson phone id",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "request for a new shared drive",
+      "intent": "AskSDriveIssue",
+      "entities": []
+    },
+    {
+      "text": "request form for a new user for sap",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "reset atlas password",
+      "intent": "ResetPassword",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 6,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "reset iphone password",
+      "intent": "AskMobileIssue",
+      "entities": [
+        {
+          "entity": "PhoneType",
+          "startPos": 6,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "ritm0483992",
+      "intent": "CheckTicketStatus",
+      "entities": [
+        {
+          "entity": "TicketNum",
+          "startPos": 0,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "ritm0614416 is not approved yet",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "TicketNum",
+          "startPos": 0,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "send me a phone number to call",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "setting up skype conference bridge",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "sharepoint external access",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "skype",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "skype failed to install with error code",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "so far i have not receive any feedback on the status of the ticket could you please help check for me?",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "something wrong with my phone",
+      "intent": "AskMobileIssue",
+      "entities": []
+    },
+    {
+      "text": "the issue started after i tried to update for helios the java version",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "the system is wrigley sap",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "there can you please reset the password of my colleague username",
+      "intent": "ResetPassword",
+      "entities": []
+    },
+    {
+      "text": "there is no connection between computers with printers all over the factory",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "there is problem in sap system",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "want to know dynamic distribution list",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "we have a production account locked",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "we need to log a ticket but unable to find right group",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "we need to unblock ricantsa username password",
+      "intent": "UnlockAccount",
+      "entities": []
+    },
+    {
+      "text": "what can i do if i lost my laptop?",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 27,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "what happened to my ticket?",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "what is centrify access",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is happening with an incident for me",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "what is her servicenow assignment group?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is my ad account?",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 11,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "what is my associate id?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is my ticket status",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "what is the chris number",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is the conference number?",
+      "intent": "AskConfNumber",
+      "entities": []
+    },
+    {
+      "text": "what is the contact number for gts?",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "what is the external number for gts?",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "what is the help desk number?",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "what is the link to mars sap",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is the mars service desk external number",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "what is the mars service desk phone number?",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "what is the msd hotline number?",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "what is the name of the windows group in servicenow?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is the password for mp6",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is the password for the guest wifi",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is the progress of my ticket?",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "what is the skype dial in number of china?",
+      "intent": "AskConfNumber",
+      "entities": []
+    },
+    {
+      "text": "what is the skype dial in number?",
+      "intent": "AskConfNumber",
+      "entities": []
+    },
+    {
+      "text": "what is your email address?",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "what is your telephone number?",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "what kind of form to use for change line managers",
+      "intent": "RequestAccess",
+      "entities": [
+        {
+          "entity": "AccessName",
+          "startPos": 29,
+          "endPos": 48
+        }
+      ]
+    },
+    {
+      "text": "what kind of ticket can i open",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what msd looks like on the contact page for phone numbers?",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "what msd shows for numbers if people are dialing in from other countries?",
+      "intent": "AskMSDNumber",
+      "entities": []
+    },
+    {
+      "text": "when can i change my computer",
+      "intent": "ApplyHardware",
+      "entities": [
+        {
+          "entity": "Hardware",
+          "startPos": 21,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "when my account expired",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "where can i find the mars time application",
+      "intent": "InstallSoftware",
+      "entities": [
+        {
+          "entity": "SoftwareName",
+          "startPos": 21,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "where can i learn more about user permissions on sharepoint?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "where is the form for a new user wrigley sap",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "SystemType",
+          "startPos": 33,
+          "endPos": 43
+        }
+      ]
+    },
+    {
+      "text": "who can assist in log into email so i can get to kronos",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "who the owner of a shared mailbox is",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "GroupType",
+          "startPos": 19,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "wondering if you can assist with my current open ticket",
+      "intent": "CheckTicketStatus",
+      "entities": []
+    },
+    {
+      "text": "your mailbox is almost full",
+      "intent": "None",
+      "entities": []
+    }
+  ]
+}
